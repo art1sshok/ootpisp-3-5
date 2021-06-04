@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.4" class="java.beans.XMLDecoder">
+ <object class="sample.entities.Teacher">
+  <void property="age">
+   <int>23</int>
+  </void>
+  <void property="name">
+   <string>Iryna</string>
+  </void>
+  <void property="subject">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>sample.entities.Teacher$Subject</class>
+    <string>MATH</string>
+   </object>
+  </void>
+  <void property="surname">
+   <string>Ivanova</string>
+  </void>
+ </object>
+ <object class="sample.entities.Medic">
+  <void property="age">
+   <int>44</int>
+  </void>
+  <void property="name">
+   <string>Mikchail</string>
+  </void>
+  <void property="surname">
+   <string>Volkov</string>
+  </void>
+  <void property="type">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>sample.entities.Medic$MedicType</class>
+    <string>SURGEON</string>
+   </object>
+  </void>
+ </object>
+ <object class="sample.entities.Programmer">
+  <void property="age">
+   <int>56</int>
+  </void>
+  <void property="lang">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>sample.entities.Programmer$ProgrammingLanguage</class>
+    <string>JAVA</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Artem</string>
+  </void>
+  <void property="surname">
+   <string>Sabetski</string>
+  </void>
+ </object>
+</java>
